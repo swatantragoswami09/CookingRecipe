@@ -5,6 +5,8 @@
   background: cornsilk;
   padding: 40px;
   box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .recipe ul {
@@ -27,4 +29,10 @@
 .method {
   text-align: left;
   line-height: 1.5em;
+}
+
+/* dark mode */
+.recipe.dark {
+  background: #555;
+  color: #e4e4e4;
 }
